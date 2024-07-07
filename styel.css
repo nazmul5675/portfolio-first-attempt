@@ -166,3 +166,41 @@ main section {
     padding: 30px;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.6);
 }
+
+/* resume section styels */
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.resume-col-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.experience-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.experience-sub-title {
+    color: #757575;
+    font-size: 20px;
+}
+
+.experience-description {
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* cv download */
+.cv-dowload {
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
