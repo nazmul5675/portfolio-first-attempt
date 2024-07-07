@@ -18,6 +18,15 @@
     border: none;
 }
 
+.btn-primary-light {
+    font-weight: bold;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    font-size: 20px;
+    width: 150px;
+    height: 64px;
+
+}
 
 /* navbar styles */
 nav {
@@ -56,4 +65,32 @@ nav li a {
 
 .dark-2 {
     color: rgba(71, 71, 71, 1);
+}
+
+/* banner styles */
+.banner-gretings {
+    font-weight: 600;
+    font-size: 45px;
+
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content {
+    max-width: 580px;
+
 }
