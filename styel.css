@@ -242,3 +242,101 @@ footer textarea {
     border: none;
     margin-bottom: 24px;
 }
+
+/* new */
+/* responsive section slill section*/
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+
+
+    .skills-container {
+        flex-direction: column;
+    }
+}
+
+/* responsive section resume section*/
+
+
+@media screen and (max-width:576px) {
+
+    .resume-container {
+        flex-direction: column;
+    }
+}
+
+/* responsive section footer section*/
+
+
+@media screen and (max-width:576px) {
+    footer {
+        flex-direction: column;
+        padding: 20px;
+
+    }
+
+    .footer-col {
+
+        width: 100%;
+    }
+
+
+
+    footer input[type="text"],
+    footer input[type="email"],
+    footer textarea {
+        width: calc(100%-20*2);
+    }
+}
+
+/* responsive section about section*/
+
+
+@media screen and (max-width:576px) {
+    .about {
+        padding: 20px;
+    }
+
+    .about-items {
+        flex-direction: column;
+    }
+
+}
+
+/* responsive section banner section*/
+
+
+@media screen and (max-width:576px) {
+
+
+    .banner {
+        flex-direction: column;
+        margin: 20px;
+        align-items: center;
+    }
+
+    header {
+        background-image: none;
+    }
+
+    .myimg {
+        width: 90%;
+    }
+
+}
+
+/* responsive section nav section*/
+
+
+@media screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
